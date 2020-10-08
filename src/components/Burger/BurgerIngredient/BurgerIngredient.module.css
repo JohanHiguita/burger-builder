@@ -111,3 +111,11 @@
     background: linear-gradient(#bf3813, #c45e38);
     margin: 2% auto;
 }
+
+.Sauce {
+  width: 85%;
+  height: 1.5%;
+  background: linear-gradient(#fc0000, rgb(252, 217, 64));
+  margin: 1% auto;
+  border-radius: 30px;
+}
