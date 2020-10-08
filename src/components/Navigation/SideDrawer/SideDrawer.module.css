@@ -31,3 +31,6 @@
   height: 11%;
   margin-bottom: 32px;
 }
+.Logo img{
+  cursor: pointer;
+}
