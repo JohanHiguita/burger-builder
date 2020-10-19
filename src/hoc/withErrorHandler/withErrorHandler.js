@@ -7,8 +7,10 @@ const withErrorHandler = (WrappedComponent, axios) => {
     state = {
       error: null
     }
-
-    componentDidMount () {
+   
+    //This will be changed using the constructor
+    componentWillMount () {
+      //This will be called before child components are rendered
       axios.interceptors.request.use(req => {
         this.setState({error: null});
         return req;
